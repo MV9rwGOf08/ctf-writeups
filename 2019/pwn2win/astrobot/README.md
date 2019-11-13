@@ -1,7 +1,5 @@
 # AstroBot
 
-[TOC]
-
 ## The task
 
 `ID: astrobot        (474 points)        [PPC]`
