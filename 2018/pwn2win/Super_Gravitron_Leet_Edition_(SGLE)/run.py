@@ -25,7 +25,7 @@ fd = p.stdout.fileno()
 fl = fcntl.fcntl(fd, fcntl.F_GETFL)
 fcntl.fcntl(fd, fcntl.F_SETFL, fl | os.O_NONBLOCK)
 
-i1 = '\033CO'
+i1 = '\033OC'
 i2 = '\033OD'
 
 best_progress = 0
